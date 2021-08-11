@@ -4,6 +4,7 @@ terraform {
       source  = "hashicorp/aws"
       version = "=3.42.0"
       Department = "devops"
+      Billable = "true"
     }
   }
 }
